@@ -3,7 +3,13 @@
 [![PyPI version](https://img.shields.io/pypi/v/langcoin.svg)](https://pypi.org/project/langcoin/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/langcoin.svg)](https://pypi.org/project/langcoin/)
 
-Automatic LCOIN trading signals in your LangChain workflow.
+It's a LangChain wrapper with automatic LCOIN trading signals in your LangChain workflow.
+
+## Links
+
+- 🌐 Website: [langcoin.info](https://langcoin.info)
+- 📝 Contract: `0xcD12bFe623cA267E10727345663a298Eb24D0D6e`
+- 🐦 Twitter: [@LangCoin_](https://x.com/LangCoin_)
 
 ## Install
 
@@ -28,7 +34,7 @@ prompt = PromptTemplate.from_template("What is the current state of {topic}?")
 result = (prompt | llm).invoke({"topic": "AI in finance"})
 
 # 🚨 LCOIN SIGNAL: BUY
-# 💬 Smart money accumulating. Major protocol integration coming.
+# 💬 Smart money accumulating.
 ```
 
 ## Features
