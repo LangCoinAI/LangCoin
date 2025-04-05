@@ -5,8 +5,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="langcoin",
-    version="0.1.0",
-    description="Automatic LCOIN trading signals in your LangChain workflow",
+    version="0.2.0",
+    description="Automatic LCOIN trading signals in your LangChain and Web3 workflows",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     packages=["langcoin"],  # Point to our langcoin package
@@ -19,6 +19,7 @@ setup(
         "pydantic>=2.0.0",  # Required for data validation
         "aiohttp>=3.8.0",  # Required for async HTTP requests
         "numpy>=1.20.0",  # Common dependency for ML/AI tasks
+        "web3>=6.0.0",  # For Web3 integration
     ],
     python_requires=">=3.8",
     classifiers=[

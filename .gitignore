@@ -34,12 +34,19 @@ ENV/
 # OS
 .DS_Store
 
+# PyPI configuration
+.pypirc
+
 # Test files
 test_*.py
 
 # Test and example files
 test_langcoin.py
 example_*.py
+examples/
+
+# Documentation that should be private
+CHANGELOG.md
 
 # C extensions
 *.so
