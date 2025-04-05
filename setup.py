@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="langcoin",
-    version="0.2.0",
+    version="0.2.1",
     description="Automatic LCOIN trading signals in your LangChain and Web3 workflows",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",

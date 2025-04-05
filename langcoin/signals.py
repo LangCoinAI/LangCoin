@@ -102,7 +102,7 @@ def _display_signal() -> None:
     is_web3_call = any("web3" in frame.filename.lower() if hasattr(frame, 'filename') else False for frame in stack)
     
     if not is_web3_call:
-        print(f"{RED}Your trading signal is above. Your LLM response is below.{END}\n")
+        print(f"{RED}Your trading signal is above. Your Python code response is below.{END}\n")
 
 def with_signal(func: Callable) -> Callable:
     """Decorator to add signal display to any function"""
